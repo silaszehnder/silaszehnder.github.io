@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    margin: 2em auto;
+}
+
+/* typography */
+
+.big-header{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 1.5em;
+}
+
+.big-header span{
+    font-size: .9em;
+    display: block;
+}
+
+@media (min-width: 70rem){
+    .big-header{
+        font-size: 3.7rem;
+    }
+}
+
+/* buttons */
+.button{
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.2em;
+}
+
+.button-big{
+    color: #303030;
+    font-weight: 600;
+    border-color: white;
+    border-width: 2px;
+    background: #FFFFFFAF;
+}
+
+.button-big:hover,
+.button-big:focus{
+    background: #FFFFFFDD;
+    color: black;
+}
+
+@media (min-width: 70rem){
+    .button{
+        font-size: 2rem;
+    }
+}
+/* header */
+
+header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1em;
+}
+
+.logo{
+    color:white;
+    font-weight:600;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 600;
+    text-decoration: none;
+    font-size: .9rem;
+    padding: .5em;
+    color: white;
+}
+
+nav a:hover,
+nav a:focus{
+    color: #FFF;
+}
+
+@media (min-width: 70rem){
+    .logo{
+        float: left;
+        margin: 1em;
+    }
+
+    nav{
+        float: right;
+        margin: 1em;
+        padding: 1em 0;
+    }
+}
+
+/* home-hook */
+.home-hook{
+    background-image: url(../img/hook-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 9em 0;
+    color: white;
+}
+
+@media (min-width: 70rem){
+    .home-hook{
+        height: 100vh;
+        padding-top: 26vh;
+    }
+}

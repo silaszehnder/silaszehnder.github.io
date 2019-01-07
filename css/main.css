@@ -99,14 +99,13 @@ nav li{
 nav a{
     font-weight: 600;
     text-decoration: none;
-    font-size: .9rem;
     padding: .5em;
     color: white;
 }
 
 nav a:hover,
 nav a:focus{
-    color: #FFF;
+    color: #A9A9A9;
 }
 
 @media (min-width: 70rem){

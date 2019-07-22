@@ -6,7 +6,7 @@ permalink: /about/
 
 # Professional
 
-Currently working as a software engineer full-time.
+Currently working as a full-time software engineer.
 
 Highlights from internships include
 * supporting a project to emulate a PowerPC processor in C/C++/Python

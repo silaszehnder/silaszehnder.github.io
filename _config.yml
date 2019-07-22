@@ -1,9 +1,7 @@
 title: Silas Zehnder
 email: szehnder@umich.edu
-description: >- # this means to ignore newlines until "baseurl:"
-  Silas Zehnder is a software engineer always looking for new
-  opportunities. If you believe I would be a good fit for your
-  team, feel free to download my resume and shoot me an email.
+#description: >- # this means to ignore newlines until "baseurl:"
+#    Silas Zehnder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://szehnder.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  silaszehnder

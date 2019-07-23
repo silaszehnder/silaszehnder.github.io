@@ -22,8 +22,8 @@ Bachelor's degree in computer engineering from the University of Michigan Colleg
 Graduated in 2019.
 
 Highlights from coursework include
-* Advanced embedded systems, created [The Brewhob](/projects/brewhob.html)
-* Intro to embedded systems, created [The Auto-Otamatone](/projects/otamatone.html)
+* Advanced embedded systems, created [The Brewhob](/projects#brewhob)
+* Intro to embedded systems, created [The Auto-Otamatone](/projects#otamatone)
 * Computer networks (streaming, CDNs, proxies, TCP/UDP, sockets, client-server applications)
 * Operating systems (CPU scheduling, mutexes/CVs/threads, memory management, file systems)
 * Web systems (full-stack development, databasing, security topics, tf-idf, PageRank)
@@ -37,8 +37,6 @@ Currently living in the Denver area.
 
 My typical weekend includes hiking, climbing, video games, and improving on my incredibly average music production and piano skills. I might upload some original tracks once I feel good enough about them.
 
-I want a dog but can't bring myself to pay the monthly fee to have one at my apartment.
-
 Music is one of my biggest hobbies. I am constantly looking for new music to listen to and am open to all genres (well, except country).
 
 Favorite albums:
@@ -49,3 +47,5 @@ Favorite albums:
 * Benny Sings - City Pop
 * The Strokes - Is This It
 * Haruomi Hosono, Shigeru Suzuki & Tatsuro Yamashita - Pacific
+
+I want a dog but can't bring myself to pay the monthly fee to have one at my apartment.

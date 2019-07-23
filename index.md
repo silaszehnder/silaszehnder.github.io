@@ -2,4 +2,4 @@
 layout: default
 ---
 
-![sunrise](/assets/img/hook-bg.jpg)
+![silas](/assets/img/me.jpg)

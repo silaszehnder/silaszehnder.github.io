@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-# ![The Brewhob](#brewhob)
+# The Brewhob
 
 *This project was completed during a semester-long senior design course (advanced embedded systems). Our 5 person multi-disciplinary team worked hard to bring this idea to market in 4 short months. This was the most enjoyable, most unexpected, and most rewarding project I worked on during college.*
 
@@ -19,7 +19,7 @@ More information can be found on our (not so serious) website, [brewhob.com](htt
 
 ![Brewhob poster](/assets/img/brewhob_poster.PNG)
 
-# ![The Auto-Otamatone](#otamatone)
+# The Auto-Otamatone
 
 This monstrosity was created in an introductory embedded systems course. The [Otamatone](https://en.wikipedia.org/wiki/Otamatone) is a fretless toy instrument that is incredibly hard to play in tune. Due to the fretless neck, there is no good way to tell where any real notes are located.
 

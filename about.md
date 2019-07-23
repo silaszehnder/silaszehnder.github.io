@@ -22,8 +22,8 @@ Bachelor's degree in computer engineering from the University of Michigan Colleg
 Graduated in 2019.
 
 Highlights from coursework include
-* Advanced embedded systems, created [The Brewhob](/projects#brewhob)
-* Intro to embedded systems, created [The Auto-Otamatone](/projects#otamatone)
+* Advanced embedded systems, created [The Brewhob](/projects)
+* Intro to embedded systems, created [The Auto-Otamatone](/projects)
 * Computer networks (streaming, CDNs, proxies, TCP/UDP, sockets, client-server applications)
 * Operating systems (CPU scheduling, mutexes/CVs/threads, memory management, file systems)
 * Web systems (full-stack development, databasing, security topics, tf-idf, PageRank)

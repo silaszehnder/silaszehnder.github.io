@@ -47,5 +47,3 @@ Favorite albums:
 * Benny Sings - City Pop
 * The Strokes - Is This It
 * Haruomi Hosono, Shigeru Suzuki & Tatsuro Yamashita - Pacific
-
-I want a dog but can't bring myself to pay the monthly fee to have one at my apartment.

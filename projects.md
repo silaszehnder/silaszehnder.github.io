@@ -28,11 +28,9 @@ We decided to take all our knowledge of FPGAs, MMIO, serial communication, veril
 
 # Solar System Shadowbox
 
-I wanted to combine woodworking and electronics, something that I hadn't done before. A routing table purchase and a dozen LEDs later, here's the end result:
+I wanted to combine woodworking and electronics, something that I hadn't done before. A routing table purchase and a few dozen LEDs later, the solar system shadowbox was finished.
 
-![Solar system shadowbox](/assets/img/solarsystem.jpg)
-
-The LEDs are connected to an Arduino which receives IR signals to control the lights. There are various flashing and blinking patterns available, and I plan to program some more (add fading using PWM).
+The LEDs are connected to an Arduino which receives IR signals to control the lights. There are various flashing and blinking patterns available, including obnoxious strobes and much calmer fading patterns using PWM.
 
 The planets were made by drilling circular depressions in the wood, drilling a hole in the middle for the LED, and filling the depression with hot glue.
 
@@ -40,16 +38,16 @@ The stars are made from thin optic fiber strands taken from a lamp. About 5 fibe
 
 # Raspberry Pi Gameboy
 
-When the Raspberry Pi Zero came out, I thought it would be really cool to make some sort of handheld device with it. Since it has fairly limited computing power, I knew it wouldn't be an extrememly capable device in terms of performance.
+When the Raspberry Pi Zero came out, I thought it would be really cool to make some sort of handheld device with it. Since it has fairly limited computing power, I knew it wouldn't be an extremely capable device in terms of performance.
 
-Retro game emulation is a common use-case for Raspberry Pis, so why would the Zero be any different? I decided I would make a retro game emulator that fits inside of my favorite childhood video game system, an atomic purple Gameboy Color.
+Retro game emulation is a common use-case for Raspberry Pis, so why would the Zero be any different? I decided I would make a retro game emulator that fits inside one of my favorite childhood video game system, an atomic purple Gameboy Color.
 
 At the moment, emulation and controls work without issue. I have yet to begin installation into the Gameboy shell because I need to double-check the battery charging circuitry. I would hate to finish the project, plug it in to charge and watch it explode.
 
 This project has been put on the backburner since I have no reason to rush it and I want to take my time and do it right.
 
-# Backlit GBA
+# Backlit GBA and GBA SP
 
-Just a fun little mod to bring a backlit screen to the original GBA. The motivation behind this project was nostalgia as I entered into my final semester of college and I wanted to push away the iminent reality of adulthood.
+Just a fun little mod to bring a backlit screen to the original GBA, and upgrade the one in the GBA SO. The motivation behind this project was nostalgia as I entered into my final semester of college and I wanted to push away the iminent reality of adulthood.
 
 I've done a few of these mods at this point. All it requires is some minor soldering work and filing down part of the interior plastic.

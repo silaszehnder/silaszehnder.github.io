@@ -35,15 +35,6 @@ Further professional and educational information can be found [on my resume](/as
 
 Currently living in the Denver area.
 
-My typical weekend includes hiking, climbing, video games, and improving on my incredibly average music production and piano skills. I might upload some original tracks once I feel good enough about them.
+My typical weekend includes hiking, climbing, music production, and video games.
 
-Music is one of my biggest hobbies. I am constantly looking for new music to listen to and am open to all genres (well, except country).
-
-Favorite albums:
-* Stevie Wonder - Songs in the Key of Life
-* Marvin Gaye - What's Going On
-* Frank Ocean - Blonde
-* Mac Demarco - This Old Dog
-* Benny Sings - City Pop
-* The Strokes - Is This It
-* Haruomi Hosono, Shigeru Suzuki & Tatsuro Yamashita - Pacific
+Music is easily my biggest hobby. I am constantly looking for new music to listen to and am open to all genres (well, except country).

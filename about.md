@@ -13,7 +13,7 @@ Highlights from internships include
 * working in a SOC and gaining deeper understanding of cybersecurity and how it pertains to software engineering
 * getting Security+ certified
 
-I also spent 3 summers cleaning carpets which certainly didn't teach me anything technical, but definitely taught me about hard work and earning your worth.
+I also spent 3 summers cleaning carpets. Still to this day it's one of my favorite jobs I've ever had.
 
 # Educational
 
@@ -37,4 +37,4 @@ Currently living in the Denver area.
 
 My typical weekend includes hiking, climbing, music production, and video games.
 
-Music is easily my biggest hobby. I am constantly looking for new music to listen to and am open to all genres (well, except country).
+Music is my biggest hobby. I am constantly looking for new music to listen to and am open to all genres!

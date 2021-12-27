@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-centered
 ---
 
-![silas](/assets/img/me.jpg)
+👋 Hello!

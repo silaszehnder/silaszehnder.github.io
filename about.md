@@ -40,4 +40,5 @@ My typical weekend includes hiking, climbing, music production, and video games.
 Music is my biggest hobby. I am constantly looking for new music to listen to and am open to all genres!
 
 [last.fm monthly artist report](https://www.last.fm/user/silaszehnder/library/artists?date_preset=LAST_30_DAYS) (reflective of Spotify listening only)
+
 [somewhat active YouTube music playlist](https://youtube.com/playlist?list=PLNecavmQ9_GwP06CcNG7OKvxmc27HiSsS)

@@ -29,7 +29,7 @@ Highlights from coursework include
 * Web systems (full-stack development, databasing, security topics, tf-idf, PageRank)
 * Data structures and algorithms (lists, stacks, queues, priority queues, hash tables, trees, searching/sorting/recursive/graph algorithms)
 
-Further professional and educational information can be found [on my resume](/assets/szehnder_resume.pdf).
+<!-- Further professional and educational information can be found [on my resume](/assets/szehnder_resume.pdf). -->
 
 # Personal
 
@@ -38,3 +38,6 @@ Currently living in the Denver area.
 My typical weekend includes hiking, climbing, music production, and video games.
 
 Music is my biggest hobby. I am constantly looking for new music to listen to and am open to all genres!
+
+[last.fm monthly artist report](https://www.last.fm/user/silaszehnder/library/artists?date_preset=LAST_30_DAYS) (reflective of Spotify listening only)
+[somewhat active YouTube music playlist](https://youtube.com/playlist?list=PLNecavmQ9_GwP06CcNG7OKvxmc27HiSsS)

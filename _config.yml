@@ -5,13 +5,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://szehnder.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  silaszehnder
-
-# ADDED CONFIGURATIONS
 timezone: America/Denver
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 

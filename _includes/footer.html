@@ -2,12 +2,6 @@
   <data href="{{ "/" | relative_url }}"></data>
   <div>
     <p>
-        {%- if site.author -%}
-        {{ site.author | escape }}
-        {%- else -%}
-        {{ site.title | escape }}
-        {%- endif -%}
-    <p>
         {%- if site.email -%}
         <a href="mailto:{{ site.email }}">email</a>
         {%- endif -%}

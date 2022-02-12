@@ -13,7 +13,7 @@ Highlights from internships include
 * working in a SOC and gaining deeper understanding of cybersecurity and how it pertains to software engineering
 * getting Security+ certified
 
-I also spent 3 summers cleaning carpets. Still to this day it's one of my favorite jobs I've ever had.
+I also spent 3 summers cleaning carpets. It's one of my favorite jobs I've ever had.
 
 # Educational
 

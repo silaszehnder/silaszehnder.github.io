@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+nav: 1
 ---
 
 # Professional

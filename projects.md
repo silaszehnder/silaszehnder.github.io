@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+nav: 2
 ---
 
 # The Brewhob

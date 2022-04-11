@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article>
+  <header>
+    <h3>{{ page.title | escape }}</h3>
+  </header>
+  <div>
+    {{ content }}
+    {% assign content_category =  page.dir | split: "/" | join: "" %}
+    {% assign content_pages = site.pages | where:"categories", content_category %}
+    {% if content_pages %}
+    <ul>
+    {% for page in content_pages %}
+        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        {% if page.date %}
+        - {{ page.date | date_to_string }}
+        {% endif %}
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</article>

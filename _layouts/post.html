@@ -2,11 +2,8 @@
 layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
-  <header>
-    <h1>{{ page.title | escape }}</h1>
-    <p>{{ page.date |  date_to_string: "ordinal", "US" }}
-  </header>
-
+  <h1>{{ page.title | escape }}</h1>
+  <p>{{ page.date |  date_to_string: "ordinal", "US" }}
   <div itemprop="articleBody">
     {{ content }}
   </div>

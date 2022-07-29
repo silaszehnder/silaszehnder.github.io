@@ -91,6 +91,7 @@ main {
     margin-left: var(--sidebar-width);
     margin-top: var(--main-margin-top);
     padding: 0px 10px;
+    font-size: 95%;
 }
 
 article header {

@@ -24,8 +24,7 @@ Highlights from coursework include
 * Operating systems (CPU scheduling, mutexes/CVs/threads, memory management, file
   systems)
 * Web systems (full-stack development, databasing, security topics, tf-idf, PageRank)
-* Data structures and algorithms (lists, stacks, queues, priority queues, hash tables,
-  trees, searching/sorting/recursive/graph algorithms)
+* Data structures and algorithms
 
 ## Personal
 

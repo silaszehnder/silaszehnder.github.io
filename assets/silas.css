@@ -26,6 +26,9 @@ and (max-device-width: 480px) {
     header h1 {
         font-size: 1.2em;
     }
+    body {
+        word-wrap: break-word;
+    }
 }
 
 html {
@@ -37,7 +40,8 @@ html {
 body {
     margin: 0;
     height: 100%;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     background-color: var(--lightgreen);
 }
 

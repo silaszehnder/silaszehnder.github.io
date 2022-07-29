@@ -1,0 +1,112 @@
+:root {
+    /* colors */ 
+    --green: #cdd2ca;
+    --lightgreen: #e5e8e3;
+    --darkgreen: #b1b9ac;
+    --darkergreen: #4b5346;
+    --lightgray: lightgray;
+
+    /* style */
+    --monospace: monospace;
+    --serif: "Iowan Old Style", Baskerville, "Times New Roman", "Droid Serif", Times, "Source Serif Pro", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --sans-serif: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+    /* layout */
+    --sidebar-width: 160px;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    font-family: var(--serif);
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    overflow: auto;
+    background-color: var(--lightgreen);
+}
+
+header {
+    background-color: var(--darkgreen);
+    position: fixed;
+    box-sizing: border-box;
+    width: var(--sidebar-width);
+    padding: 0.25rem;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+header a:hover {
+    color: var(--text);
+}
+
+a:hover {
+    color: var(--darkergreen);
+}
+
+nav {
+    box-sizing: border-box;
+    height: 100%;
+    align: left;
+    background-color: var(--green); 
+    width: var(--sidebar-width);
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    padding-top: 0.25em;
+    padding-left: 0.25em;
+    overflow-x: hidden;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    margin-left: var(--sidebar-width);
+    margin-top: 90px;
+    padding: 0px 10px;
+}
+
+article header {
+    background-color: inherit;
+    position: static;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+}
+
+footer {
+    align: left;
+    width: var(--sidebar-width); 
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+}
+
+img {
+    width: 100%;
+}
+
+code {
+    background-color: var(--lightgray);
+    vertical-align: baseline;
+    font-family: var(--monospace);
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+pre code {
+    display: block;
+    padding: 1em;
+}

@@ -13,6 +13,19 @@
 
     /* layout */
     --sidebar-width: 160px;
+    --main-margin-top: 91px;
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    :root {
+        --sidebar-width: 90px;
+        --main-margin-top: 57px;
+    }
+    header h1 {
+        font-size: 1.2em;
+    }
 }
 
 html {
@@ -34,6 +47,7 @@ header {
     box-sizing: border-box;
     width: var(--sidebar-width);
     padding: 0.25rem;
+    word-wrap: break-word;
 }
 
 header a {
@@ -71,7 +85,7 @@ nav a {
 
 main {
     margin-left: var(--sidebar-width);
-    margin-top: 90px;
+    margin-top: var(--main-margin-top);
     padding: 0px 10px;
 }
 

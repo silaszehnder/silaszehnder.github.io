@@ -12,7 +12,7 @@ layout: default
     {% for page in content_pages %}
         <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         {% if page.date %}
-        - {{ page.date | date_to_string }}
+        - {{ page.date  }}
         {% endif %}
     {% endfor %}
     </ul>

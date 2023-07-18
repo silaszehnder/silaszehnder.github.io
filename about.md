@@ -1,9 +1,11 @@
 ---
-layout: page
 title: About
-permalink: /about/
+layout: default
+permalink: /
 nav: 0
 ---
+
+👋 Hello!
 
 ## Professional
 
@@ -28,16 +30,11 @@ Highlights from coursework include
 
 ## Personal
 
-Currently living in the Denver area.
-
-My typical weekend includes hiking, climbing, music production, and video games.
+My typical weekend includes climbing, music production, and video games.
 
 Music is my biggest hobby. I am constantly looking for new music to listen to and am
 open to all genres!
 
-[last.fm monthly artist report](
-https://www.last.fm/user/silaszehnder/library/artists?date_preset=LAST_30_DAYS)
+[3 month last.fm report](
+https://www.tapmusic.net/collage.php?user=silaszehnder&type=3month&size=10x10&caption=true)
 (reflective of Spotify listening only)
-
-[somewhat active YouTube music playlist](
-https://youtube.com/playlist?list=PLNecavmQ9_GwP06CcNG7OKvxmc27HiSsS)

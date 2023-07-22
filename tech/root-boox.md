@@ -45,6 +45,9 @@ something like this:
   `python edl --loader=Loaders/prog_emmc_ufs_firehose_Sdm636_ddr.elf r boot boot.img --memory emmc`
   - Note `--memory emmc`. I think that the default behavior of this tool has changed
     since Tho85's post, as their commands didn't specify the usage of this argument.
+  - Note for Nova Air 2 users: I had to use
+    `0014d0e100000000_d40eee56f3194665_FHPRG.bin` instead as the Loader, and the
+    partition was `boot_a` rather than `boot`.
   - Note for pyenv users: I ran into libusb issues due to pyenv expecting it to exist
     somewhere that it didn't. Following [this suggestion in a GitHub issue thread](
     https://github.com/pyusb/pyusb/issues/355#issuecomment-974726078) (running
@@ -58,6 +61,8 @@ something like this:
   - copy patch over to laptop
   - `adb reboot fastboot`
   - `fastboot boot magisk_patched*.img`
+    - Note: On a Nova Air 2, I had to hop into `fastboot reboot bootloader` first in
+      order for the `fastboot boot` command to be recognized.
   - confirmed the patched boot image worked
   - `fastboot flash boot magisk_patched*.img`
   - `fastboot reboot`
@@ -78,7 +83,7 @@ something like this:
 - Install `a decluttered launcher`
 - Set up notes to backup to Google Drive:
   - Within notes settings, enable saving to pdf on exit
-  - Install `Autosync for Goodle Drive` and configure it to watch the `/note` directory
+  - Install `Autosync for Google Drive` and configure it to watch the `/note` directory
 
 ----------------------------------------------------------------------------------------
 

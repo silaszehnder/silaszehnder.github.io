@@ -5,6 +5,7 @@
     --darkgreen: #b1b9ac;
     --darkergreen: #4b5346;
     --lightgray: lightgray;
+    --darkgray: darkgray;
 
     /* style */
     --monospace: monospace;
@@ -131,5 +132,7 @@ pre code {
 }
 
 blockquote {
-    background-color: var(--green);
+    background-color: var(--lightgray);
+    font-size: 90%;
+    width: 80%;
 }

@@ -136,3 +136,7 @@ blockquote {
     font-size: 90%;
     width: 80%;
 }
+
+sup {
+    vertical-align: top;
+}

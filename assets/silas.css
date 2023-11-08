@@ -122,7 +122,7 @@ code {
     background-color: var(--lightgray);
     vertical-align: baseline;
     font-family: var(--monospace);
-    word-break: break-all;
+    word-break: break-word;
     word-wrap: break-word;
 }
 
@@ -136,7 +136,6 @@ blockquote {
     background-color: var(--lightgray);
     font-size: 90%;
     width: 80%;
-    overflow-x: scroll;
 }
 
 sup {

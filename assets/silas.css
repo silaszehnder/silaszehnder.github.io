@@ -129,12 +129,14 @@ code {
 pre code {
     display: block;
     padding: 1em;
+    overflow-x: scroll;
 }
 
 blockquote {
     background-color: var(--lightgray);
     font-size: 90%;
     width: 80%;
+    overflow-x: scroll;
 }
 
 sup {

@@ -146,3 +146,22 @@ blockquote code {
 sup {
     vertical-align: top;
 }
+
+table {
+    border-collapse: collapse;
+    border: hidden;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--gray);
+}
+tbody tr:hover {
+    background-color: var(--darkgray);
+}
+
+th, td {
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: left;
+  border: 1px solid black;
+}

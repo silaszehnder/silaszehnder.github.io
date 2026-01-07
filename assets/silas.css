@@ -165,3 +165,77 @@ th, td {
   text-align: left;
   border: 1px solid black;
 }
+
+.track {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.track .meta {
+  display: flex;
+  flex-direction: column;
+}
+
+.track time {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.live {
+  font-size: 0.75rem;
+  color: #e53935;
+  animation: pulse 1.2s infinite;
+}
+
+@keyframes pulse {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.track img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  background: #111;
+}
+
+/* Center label */
+.track img::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #111;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Gloss highlight */
+.track img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(255,255,255,0.25),
+    rgba(255,255,255,0) 60%
+  );
+}
+
+/* Spin only when now playing */
+.track.now img {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}

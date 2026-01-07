@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+<script>
+fetch("https://lastfm-worker.silaszehnder.workers.dev/")
+  .then(r => r.json())
+  .then(tracks => {
+    const root = document.getElementById("tracks");
+
+    tracks.forEach(t => {
+      const div = document.createElement("div");
+      div.className = "track";
+
+      if (t.now_playing) div.classList.add("now");
+
+      div.innerHTML = `
+        <img src="${t.image}" alt="">
+        <div class="meta">
+          <strong>${t.title}</strong>
+          <span>${t.artist}</span>
+          ${t.now_playing
+            ? '<span class="live">Now Playing</span>'
+            : `<time>${new Date(t.played_at).toLocaleString()}</time>`
+          }
+        </div>
+      `;
+
+      root.appendChild(div);
+    });
+  });
+</script>
+  <body>
+    {%- include header.html -%}
+    <main>
+      <div>
+        {{ content }}
+      </div>
+      <section id="tracks"></section>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>

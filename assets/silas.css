@@ -195,44 +195,34 @@ th, td {
   100% { opacity: 0.3; }
 }
 
-.track img {
+
+.art {
+  position: relative;
   width: 64px;
   height: 64px;
-  border-radius: 50%;
+}
+
+/* Square album art */
+.cover {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  position: relative;
-  background: #111;
+  border-radius: 8px;
+  display: block;
 }
 
-/* Center label */
-.track img::after {
-  content: "";
+/* Rotating circular overlay */
+.disc {
   position: absolute;
-  width: 12px;
-  height: 12px;
-  background: #111;
+  inset: 0px;              /* disc size */
   border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  display: block;
 
-/* Gloss highlight */
-.track img::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 50%;
-  background: linear-gradient(
-    135deg,
-    rgba(255,255,255,0.25),
-    rgba(255,255,255,0) 60%
-  );
-}
-
-/* Spin only when now playing */
-.track.now img {
-  animation: spin 6s linear infinite;
+  animation: spin 12s linear infinite;
 }
 
 @keyframes spin {

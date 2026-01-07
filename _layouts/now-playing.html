@@ -14,9 +14,13 @@ fetch("https://lastfm-worker.silaszehnder.workers.dev/")
       if (t.now_playing) div.classList.add("now");
 
       div.innerHTML = `
-        <img src="${t.image}" alt="">
+        <div class="art">
+          <img class="cover" src="${t.image}" alt="">
+          ${t.now_playing ? `<img class="disc" src="${t.image}" alt="">` : ""}
+        </div>
         <div class="meta">
           <strong>${t.title}</strong>
+          <i>${t.album}</i>
           <span>${t.artist}</span>
           ${t.now_playing
             ? '<span class="live">Now Playing</span>'
@@ -24,7 +28,6 @@ fetch("https://lastfm-worker.silaszehnder.workers.dev/")
           }
         </div>
       `;
-
       root.appendChild(div);
     });
   });
